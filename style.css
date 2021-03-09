@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-transform: uppercase;
+}
+
+.flex_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.flex_div div {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(71, 67, 67);
+    color: white;
+}
